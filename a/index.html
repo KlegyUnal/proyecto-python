@@ -1,0 +1,12 @@
+{% extends "./base.html" %}
+{% block titulo %}
+Papelazo
+{% endblock %}
+{% block contenido %}
+<h1>{{data.titulo}}</h1>
+<div>
+    {% for i in data.arreglo %}
+    <h2>{{i}}</h2>
+    {% endfor %}
+</div>
+{% endblock %}

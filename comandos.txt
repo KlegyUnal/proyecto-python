@@ -1,0 +1,6 @@
+instalar paquetes en python
+pip install -r requirement.txt
+crear entorno virtual
+virtualenv -p python3 papelazoenv
+activar entorno virtual
+\papelazoenv\Scripts\activate
